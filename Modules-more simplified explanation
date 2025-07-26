@@ -1,0 +1,74 @@
+---
+
+## 🧠 What is a Module in Python?
+
+👉 A **module** is just a **file** with Python code that you can **use in other files**.
+
+---
+
+## 📦 Why Use Modules?
+
+* To **organize** your code (like putting things in folders)
+* To **reuse** code (don’t copy-paste)
+* To make your code **clean and simple**
+
+---
+
+## 📁 Example: Your Own Module
+
+### Step 1: Create a file called `helper.py`
+
+```python
+# helper.py
+def say_hello(name):
+    print(f"Hello, {name}!")
+```
+
+### Step 2: Create another file called `main.py`
+
+```python
+# main.py
+import helper
+
+helper.say_hello("Aitbubu")
+```
+
+✅ When you run `main.py`, it will print:
+
+```
+Hello, Aitbubu!
+```
+
+---
+
+## 🧰 You Can Also Use Python's Built-In Modules
+
+Example: use the **math** module
+
+```python
+import math
+
+print(math.sqrt(16))  # Output: 4.0
+```
+
+---
+
+## 🕓 When to Use Modules?
+
+| Situation                           | Use Module? |
+| ----------------------------------- | ----------- |
+| Your code is long                   | ✅ Yes       |
+| You want to reuse code later        | ✅ Yes       |
+| You work with others                | ✅ Yes       |
+| Just writing a small 10-line script | ❌ No need   |
+
+---
+
+## 🎯 Summary
+
+* A **module = one `.py` file**
+* You **import** it to use functions from it
+* It helps you **stay organized and reuse code**
+
+---
+
